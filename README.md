@@ -28,7 +28,7 @@ b. Output the Twitter stream into a text file via running the following:
 Run the script in the following way: **python term_sentiment.py AFINN-111.txt output.txt**
 
 * **frequency.py** This script is used to compute the term frequency of the livestream twitter data that we have downloaded. 
-Run the script in the following way: *** python frequency.py output.txt** 
+Run the script in the following way: **python frequency.py output.txt** 
 
 * **happiest_state.py** This script uses the user field in every Tweet to determine the state from which the Tweet originated. By using the AFINN-111.txt file to determine the sentiment of every tweet, this script displays the initials of the state that has the highest average positive sentiment.Run the script in the following way: **python happiest_state.py AFINN-111.txt output.py**
 
