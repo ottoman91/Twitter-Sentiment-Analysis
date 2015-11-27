@@ -131,7 +131,6 @@ def main():
         states_average_sentiment_scores[key] = Decimal(states_sentiment_scores[key]) / Decimal(states_number_of_tweets[key]) 
      
     sorted_state_sentiment_scores = sorted(states_average_sentiment_scores.items(),key=operator.itemgetter(1),reverse=True) 
-    #print sorted_state_sentiment_scores
     print sorted_state_sentiment_scores[0][0]
 
         

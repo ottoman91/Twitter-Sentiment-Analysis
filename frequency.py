@@ -27,16 +27,13 @@ def main():
             
         except:
             pass
-    #print words_frequency 
 
     #calculate the term frequency of every word
     total_words = 0 
     for words in words_frequency:
     	total_words += words_frequency[words] 
-    #print total_words 
     for word in words_frequency:
     	term_frequency = Decimal(words_frequency[word]) / Decimal((total_words)) 
-        #print term_frequency
         print word, term_frequency
         
 if __name__ == '__main__':

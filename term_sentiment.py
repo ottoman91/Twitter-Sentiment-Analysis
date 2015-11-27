@@ -52,7 +52,6 @@ def main():
                 else:
                     negative_score += scores[match]
                     num_negative += 1
-            #print positive_score, negative_score, num_positive,num_negative, score
             new_words = diff(words, matches)
             if len(new_words) > 0:
                 for new_word in new_words:
@@ -75,7 +74,6 @@ def main():
             
         except:
             pass 
-    #print len(new_num_negatives) 
     for new_term in new_terms: 
         n = Decimal(new_num_negatives[new_term]) + Decimal(new_num_positives[new_term])
         try:
